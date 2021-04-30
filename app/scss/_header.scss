@@ -3,7 +3,6 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    padding: 2.5rem 1.5rem 0px 1.5rem;
 
     &_logo {
 
@@ -17,6 +16,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 2.5rem 1.5rem 0px 1.5rem;
     }
 
     &_hamburger {
@@ -29,6 +29,23 @@
             transition: all 300ms ease-in-out;
             // transform-origin: 3px 1px;
             margin-bottom: 0.3125rem;
+        }
+    }
+
+    &_overlay {
+        background:$Black;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        color: $White;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1.6em;
+
+        li {
+            margin-bottom: 1.875rem;
         }
     }
 }
