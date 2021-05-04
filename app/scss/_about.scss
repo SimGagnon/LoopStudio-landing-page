@@ -1,0 +1,11 @@
+.about {
+    text-align: center;
+
+    &_image {
+        padding-top: 6rem;
+
+        img {
+            width: 100%;
+        }
+    }
+}

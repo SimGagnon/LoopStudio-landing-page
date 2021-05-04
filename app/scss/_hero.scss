@@ -1,7 +1,7 @@
 .hero {
     background: url('/images/mobile/image-hero.jpg') center no-repeat;
     background-size: cover;
-    height: 40.625rem;
+    min-height: 40.625rem;
     position: relative;
     color: $White;
 
