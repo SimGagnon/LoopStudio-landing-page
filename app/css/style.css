@@ -180,21 +180,27 @@ p, li, small {
 
 .about {
   text-align: center;
-  padding: 3.69rem 1.5rem;
+  padding: 6rem 1.5rem;
 }
 
 .about_image img {
   width: 100%;
-  padding-bottom: 3.0625rem;
+  margin-bottom: 3rem;
 }
 
-.about h3 {
+.about_text {
+  padding: 0 1.1rem;
+}
+
+.about_text h3 {
   font-size: 2.133em;
   font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
-.about p {
+.about_text p {
   opacity: 0.5;
+  line-height: 1.5625rem;
 }
 
 .creations {
