@@ -1,11 +1,24 @@
 .about {
     text-align: center;
+    padding: 3.69rem 1.5rem;
 
-    &_image {
-        padding-top: 6rem;
+    &_image { 
 
         img {
             width: 100%;
+            padding-bottom: 3.0625rem;
         }
+    }
+
+    h3 {
+        font-size: 2.133em;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: $Atlata;
+        opacity: 0.5;
     }
 }

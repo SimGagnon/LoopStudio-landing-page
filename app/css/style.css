@@ -165,13 +165,23 @@ li {
 
 .about {
   text-align: center;
-}
-
-.about_image {
-  padding-top: 6rem;
+  padding: 3.69rem 1.5rem;
 }
 
 .about_image img {
   width: 100%;
+  padding-bottom: 3.0625rem;
+}
+
+.about h3 {
+  font-size: 2.133em;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.about p {
+  font-size: 1em;
+  font-family: "Alata", sans-serif;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=style.css.map */
