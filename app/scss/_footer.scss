@@ -1,0 +1,23 @@
+footer {
+    background: black;
+    width: 100%;
+    height: 23.4375rem;
+    text-align: center;
+    color: white;
+    padding: 3.5rem 3.25rem;
+
+    small {
+        opacity: 0.5;
+    }
+
+    .nav_footer {
+        
+        li:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    div .socials {
+
+    }
+}

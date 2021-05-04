@@ -5,10 +5,13 @@ html {
 
 *,*::before, *::after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 h1,h2,h3,h4,h5 {
     margin: 0;
+    text-transform: uppercase;
 }
 
 body {
@@ -36,6 +39,8 @@ li {
     display: block;
 }
 
-.container {
-    padding: 0px 1.5rem;
+
+p,li,small {
+    font-family: $Atlata;
+    font-size: 1em;
 }

@@ -1,0 +1,21 @@
+.creations {
+
+    padding: 0 1.6rem;
+    position: relative;
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(16rem), 1fr);
+        grid-gap: 1rem;
+
+        img {
+            width: 100%;
+        }
+
+        h5 {
+            font-size: 1.6em;
+            color: $White;
+            position: absolute;
+        }
+    }
+}
