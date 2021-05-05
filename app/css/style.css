@@ -183,14 +183,13 @@ p, li, small {
   text-transform: uppercase;
   padding: 1.5rem;
   border: 2px white solid;
-  max-width: 40.625rem;
+  max-width: 25rem;
 }
 
 .container .hero_text h1 {
   font-size: 2.66em;
   text-align: left;
   font-weight: 300;
-  line-height: 38px;
 }
 
 @media screen and (min-width: 43.75em) {
@@ -198,6 +197,9 @@ p, li, small {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/desktop/image-hero.jpg") center no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/desktop/image-hero.jpg") center no-repeat;
     background-size: cover;
+  }
+  .container .hero_text {
+    max-width: 40.625rem;
   }
   .container .hero_text h1 {
     font-size: 4.8em;
@@ -284,6 +286,13 @@ p, li, small {
 
 .creations_grid_items {
   position: relative;
+}
+
+@media screen and (min-width: 40em) {
+  .creations_grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 
 .footer {
