@@ -18,13 +18,36 @@
         align-items: center;
 
         ul {
-            display: flex;
+            display: none;
             color: $White;
 
             li:not(:last-child) {
                 margin-right: 2rem;
             }
+
+            a {
+
+                &::after {
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    width: 24px;
+                    left: 0;
+                    right: 0;
+                    background: $White;
+                    opacity: 0;
+                    margin: auto;
+                    transition: opacity 300ms ease-in-out;
+                }
+
+                &:hover {
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+            }
         }
+
     }
 
     &_hamburger {
@@ -78,6 +101,21 @@
             margin-bottom: 1.5rem;
             font-family: $Josefin;
             font-weight: lighter;
+        }
+    }
+}
+
+
+@media screen and (min-width:43.75em) {
+    .header {
+        nav {
+            ul {
+                display: flex;
+            }
+        }
+
+        &_hamburger {
+            display: none;
         }
     }
 }

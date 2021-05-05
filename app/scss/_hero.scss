@@ -31,3 +31,20 @@
 
 }
 }
+
+@media screen and (min-width:43.75em) {
+    .container {
+        background: url('/images/desktop/image-hero.jpg') center no-repeat;
+        background-size: cover;
+
+        .hero {
+
+            &_text {
+                
+                h1 {
+                    font-size: 4.8em;
+                }
+            }
+        }
+    }
+}
