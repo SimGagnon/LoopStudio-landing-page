@@ -195,7 +195,8 @@ p, li, small {
 
 @media screen and (min-width: 43.75em) {
   .container {
-    background: url("/images/desktop/image-hero.jpg") center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/desktop/image-hero.jpg") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/desktop/image-hero.jpg") center no-repeat;
     background-size: cover;
   }
   .container .hero_text h1 {
@@ -233,6 +234,30 @@ p, li, small {
 .creations {
   padding: 0 1.6rem;
   position: relative;
+  text-align: center;
+}
+
+.creations h3 {
+  font-size: 2.133em;
+  margin-bottom: 3rem;
+  font-weight: lighter;
+}
+
+.creations button {
+  border: 1px black solid;
+  text-transform: uppercase;
+  background: white;
+  font-size: 0.93em;
+  padding: 0.86em 2.66em;
+  letter-spacing: 0.93em;
+  font-family: "Alata", sans-serif;
+  cursor: pointer;
+  margin-bottom: 6rem;
+}
+
+.creations button:hover {
+  background: black;
+  color: white;
 }
 
 .creations_grid {
@@ -240,7 +265,8 @@ p, li, small {
   display: grid;
   -ms-grid-columns: (minmax(16rem), 1fr)[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(16rem), 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
+  margin-bottom: 2.125em;
 }
 
 .creations_grid img {
@@ -251,6 +277,13 @@ p, li, small {
   font-size: 1.6em;
   color: white;
   position: absolute;
+  bottom: 1.5rem;
+  left: 1.25rem;
+  font-weight: lighter;
+}
+
+.creations_grid_items {
+  position: relative;
 }
 
 .footer {

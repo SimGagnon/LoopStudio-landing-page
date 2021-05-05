@@ -2,11 +2,36 @@
 
     padding: 0 1.6rem;
     position: relative;
+    text-align: center;
+
+    h3  {
+        font-size: 2.133em;
+        margin-bottom: 3rem;
+        font-weight: lighter;
+    }
+
+    button {
+        border: 1px black solid;
+        text-transform: uppercase;
+        background: $White;
+        font-size: 0.93em;
+        padding: 0.86em 2.66em;
+        letter-spacing: 0.93em;
+        font-family: $Atlata;
+        cursor: pointer;
+        margin-bottom: 6rem;
+
+        &:hover {
+            background: $Black;
+            color: $White;
+        }
+    }
 
     &_grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(16rem), 1fr);
-        grid-gap: 1rem;
+        grid-gap: 1.5rem;
+        margin-bottom: 2.125em;
 
         img {
             width: 100%;
@@ -16,6 +41,13 @@
             font-size: 1.6em;
             color: $White;
             position: absolute;
+            bottom: 1.5rem;
+            left: 1.25rem;
+            font-weight: lighter;
+        }
+
+        &_items {
+            position: relative;
         }
     }
 }

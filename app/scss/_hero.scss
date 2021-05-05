@@ -34,7 +34,7 @@
 
 @media screen and (min-width:43.75em) {
     .container {
-        background: url('/images/desktop/image-hero.jpg') center no-repeat;
+        background: linear-gradient(hsla(0, 0%, 0%, 0.400), hsla(0, 0%, 0%, 0.400)),url('/images/desktop/image-hero.jpg') center no-repeat;
         background-size: cover;
 
         .hero {
