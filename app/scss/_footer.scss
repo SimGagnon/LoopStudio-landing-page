@@ -33,3 +33,36 @@
 
     }
 }
+
+@media screen and (min-width:60em) {
+    .footer {
+
+        display: flex;
+        justify-content: space-between;
+
+        > div:first-of-type  {
+            text-align: left;
+        }
+
+        &_nav {
+            
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 2rem;
+                }
+            }
+        }
+
+        &_socials {
+
+            margin-top: 0;
+            text-align: right;
+
+            .fab {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

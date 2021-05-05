@@ -46,6 +46,10 @@ p, li, small {
   font-size: 1em;
 }
 
+.header a {
+  z-index: 5;
+}
+
 .header_logo img {
   width: 9rem;
   height: 1.5rem;
@@ -103,7 +107,7 @@ p, li, small {
   top: 0;
   left: 0;
   z-index: 2;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: black;
   color: white;
@@ -113,8 +117,15 @@ p, li, small {
   transition: all 300ms ease-in-out;
 }
 
+.header_overlay ul {
+  padding-left: 1.5rem;
+  padding-top: 12.4375rem;
+}
+
 .header_overlay li {
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .container {
@@ -148,28 +159,6 @@ p, li, small {
   text-align: left;
   font-weight: 300;
   line-height: 38px;
-}
-
-@-webkit-keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  100% {
-    -webkit-transform: translateX(100vw);
-            transform: translateX(100vw);
-  }
-}
-
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  100% {
-    -webkit-transform: translateX(100vw);
-            transform: translateX(100vw);
-  }
 }
 
 .about {
@@ -248,5 +237,34 @@ p, li, small {
   margin-right: 1rem;
   font-size: 1.6em;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 60em) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer > div:first-of-type {
+    text-align: left;
+  }
+  .footer_nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer_nav ul li {
+    margin-right: 2rem;
+  }
+  .footer_socials {
+    margin-top: 0;
+    text-align: right;
+  }
+  .footer_socials .fab {
+    margin-bottom: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
