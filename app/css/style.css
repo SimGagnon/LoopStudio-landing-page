@@ -2,6 +2,7 @@ html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -286,6 +287,13 @@ p, li, small {
 
 .creations_grid_items {
   position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.creations_grid_items:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 @media screen and (min-width: 40em) {
