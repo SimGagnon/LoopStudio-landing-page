@@ -326,7 +326,7 @@ p, li, small {
 }
 
 @media screen and (min-width: 50em) {
-  .footer {
+  .footer_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -334,11 +334,8 @@ p, li, small {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .footer > div:first-of-type {
+  .footer_container > div:first-of-type {
     text-align: left;
-  }
-  .footer > div:first-of-type img {
-    margin-bottom: 1.5rem;
   }
   .footer_nav ul {
     display: -webkit-box;
@@ -354,7 +351,7 @@ p, li, small {
     text-align: right;
   }
   .footer_socials .fab {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
