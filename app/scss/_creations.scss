@@ -59,6 +59,7 @@
             left: 1.25rem;
             z-index: 5;
             font-weight: lighter;
+            text-align: left;
         }
 
         &_items {
@@ -67,6 +68,14 @@
 
             &:hover {
                 transform: scale(1.08);
+
+                h5 {
+                    color: black;
+                }
+
+                img {
+                    opacity: 0.25;
+                }
             }
         }
     }
@@ -83,9 +92,29 @@
 
 @media screen and (min-width:68.75em) {
     .creations {
+        padding: 0;
+
+        h3 {
+            text-align: left;
+            font-size: 3.2em;
+        }
+        
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
         
         &_grid {
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-bottom: 11.5rem;
+
+            h5 {
+                font-size: 2.133em;
+                bottom: 2.5rem;
+                left: 2.5rem;
+            }
+
         }
     }
 }

@@ -359,6 +359,7 @@ p, li, small {
   left: 1.25rem;
   z-index: 5;
   font-weight: lighter;
+  text-align: left;
 }
 
 .creations_grid_items {
@@ -372,6 +373,14 @@ p, li, small {
           transform: scale(1.08);
 }
 
+.creations_grid_items:hover h5 {
+  color: black;
+}
+
+.creations_grid_items:hover img {
+  opacity: 0.25;
+}
+
 @media screen and (min-width: 40em) {
   .creations_grid {
     -ms-grid-columns: 1fr 1fr;
@@ -380,9 +389,27 @@ p, li, small {
 }
 
 @media screen and (min-width: 68.75em) {
+  .creations {
+    padding: 0;
+  }
+  .creations h3 {
+    text-align: left;
+    font-size: 3.2em;
+  }
+  .creations button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   .creations_grid {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 11.5rem;
+  }
+  .creations_grid h5 {
+    font-size: 2.133em;
+    bottom: 2.5rem;
+    left: 2.5rem;
   }
 }
 
