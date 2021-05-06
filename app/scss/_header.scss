@@ -24,28 +24,6 @@
             li:not(:last-child) {
                 margin-right: 2rem;
             }
-
-            a {
-
-                &::after {
-                    content: "";
-                    display: block;
-                    height: 2px;
-                    width: 24px;
-                    left: 0;
-                    right: 0;
-                    background: $White;
-                    opacity: 0;
-                    margin: auto;
-                    transition: opacity 300ms ease-in-out;
-                }
-
-                &:hover {
-                    &:after {
-                        opacity: 1;
-                    }
-                }
-            }
         }
 
     }

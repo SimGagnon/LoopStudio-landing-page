@@ -48,6 +48,24 @@ p, li, small {
   margin: auto;
 }
 
+li::after, .fab::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 24px;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  margin: auto;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+li:hover:after, .fab:hover:after {
+  opacity: 1;
+}
+
 @-webkit-keyframes slide-in-fade {
   0% {
     -webkit-transform: translateX(1000px);
@@ -102,24 +120,6 @@ p, li, small {
 
 .header nav ul li:not(:last-child) {
   margin-right: 2rem;
-}
-
-.header nav ul a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 24px;
-  left: 0;
-  right: 0;
-  background: white;
-  opacity: 0;
-  margin: auto;
-  -webkit-transition: opacity 300ms ease-in-out;
-  transition: opacity 300ms ease-in-out;
-}
-
-.header nav ul a:hover:after {
-  opacity: 1;
 }
 
 .header_hamburger span {

@@ -46,8 +46,33 @@ p,li,small {
     font-size: 1em;
 }
 
+// Class to keep everything in 1100px //
+
 .max-width-container{
     max-width: 68.75rem;
     margin: auto;
 }
+
+li,.fab {
+
+    &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 24px;
+        left: 0;
+        right: 0;
+        background: $White;
+        opacity: 0;
+        margin: auto;
+        transition: opacity 300ms ease-in-out;
+    }
+
+    &:hover {
+        &:after {
+            opacity: 1;
+        }
+    }
+}
+
 
