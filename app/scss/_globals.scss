@@ -32,12 +32,12 @@ li {
     list-style: none;
 }
 
-.hidden {
-    display: none  !important;
-}
+// .hidden {
+//     display: none;
+// }
 
 .show {
-    visibility: visible;
+    visibility: visible  !important;
 }
 
 

@@ -34,12 +34,8 @@ li {
   list-style: none;
 }
 
-.hidden {
-  display: none  !important;
-}
-
 .show {
-  visibility: visible;
+  visibility: visible  !important;
 }
 
 p, li, small {
@@ -163,6 +159,9 @@ p, li, small {
   font-size: 1.6em;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  -webkit-animation: slide-in-fade .55s both;
+          animation: slide-in-fade .55s both;
+  visibility: hidden;
 }
 
 .header_overlay ul {
@@ -288,6 +287,16 @@ p, li, small {
   line-height: 1.5625rem;
 }
 
+@media screen and (min-width: 40em) {
+  .about_text {
+    text-align: left;
+  }
+  .about_text h3 {
+    margin-bottom: 1.5625rem;
+    font-size: 3.2em;
+  }
+}
+
 .creations {
   padding: 0 1.6rem;
   position: relative;
@@ -354,6 +363,13 @@ p, li, small {
   .creations_grid {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 68.75em) {
+  .creations_grid {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

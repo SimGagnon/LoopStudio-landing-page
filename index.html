@@ -2,18 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/ef397b011a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="app/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Loopstudios landing page</title>
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
 <body>
   <div class="container">
@@ -56,7 +51,10 @@
 
   <section class="about">
     <div class="about_image">
-      <img src="images/mobile/image-interactive.jpg" alt="Man vr set">
+      <picture>
+        <source media="(min-width: 700px)" srcset="images\desktop\image-interactive.jpg">
+        <img src="images/mobile/image-interactive.jpg" alt="Man vr set">
+      </picture>
     </div>
     <div class="about_text"> 
       <h3>The leader in interactive VR</h3>
@@ -72,49 +70,73 @@
     <div class="creations_grid">
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-deep-earth.jpg" alt="Deep earth">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images\desktop\image-deep-earth.jpg">
+            <img src="images/mobile/image-deep-earth.jpg" alt="Deep earth">
+          </picture>
           <h5>deep earth</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-night-arcade.jpg" alt="Night arcade">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-night-arcade.jpg">
+            <img src="images/mobile/image-night-arcade.jpg" alt="Night arcade">
+          </picture>
           <h5>night arcade</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-soccer-team.jpg" alt="Soccer team vr">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-soccer-team.jpg">
+            <img src="images/mobile/image-soccer-team.jpg" alt="Soccer team vr">
+          </picture>
           <h5>soccer team vr</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-grid.jpg" alt="The grid">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-grid.jpg">
+            <img src="images/mobile/image-grid.jpg" alt="The grid">
+          </picture>
           <h5>the grid</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-from-above.jpg" alt="From up above vr">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-from-above.jpg">
+            <img src="images/mobile/image-from-above.jpg" alt="From up above vr">
+          </picture>
           <h5>from up above vr</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-pocket-borealis.jpg" alt="Pocket borealis">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-pocket-borealis.jpg">
+            <img src="images/mobile/image-pocket-borealis.jpg" alt="Pocket borealis">
+          </picture>
           <h5>pocket borealis</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-curiosity.jpg" alt="The curiosity">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-curiosity.jpg">
+            <img src="images/mobile/image-curiosity.jpg" alt="The curiosity">
+          </picture>
           <h5>the curiosity</h5>
         </a>
       </div>
       <div class="creations_grid_items">
         <a href="">
-          <img src="images/mobile/image-fisheye.jpg" alt="Make it fisheye">
+          <picture>
+            <source media="(min-width: 1100px)" srcset="images/desktop/image-fisheye.jpg">
+            <img src="images/mobile/image-fisheye.jpg" alt="Make it fisheye">
+          </picture>
           <h5>make it fisheye</h5>
         </a>
       </div>
