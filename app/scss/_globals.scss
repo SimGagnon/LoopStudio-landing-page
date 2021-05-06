@@ -20,6 +20,10 @@ body {
     padding: 0;
     font-size: 15px;
     font-family: $Josefin;
+
+    &.noscroll {
+        overflow: hidden;
+    }
 }
 
 a {
@@ -32,9 +36,9 @@ li {
     list-style: none;
 }
 
-// .hidden {
-//     display: none;
-// }
+.hidden {
+    display: none;
+}
 
 .show {
     visibility: visible  !important;
@@ -53,19 +57,25 @@ p,li,small {
     margin: auto;
 }
 
+// Hover effect for li,fab //
+
 li,.fab {
+
+    position: relative;
 
     &::after {
         content: "";
         display: block;
         height: 2px;
         width: 24px;
+        top: 2rem;
         left: 0;
         right: 0;
         background: $White;
         opacity: 0;
         margin: auto;
         transition: opacity 300ms ease-in-out;
+        position: absolute;
     }
 
     &:hover {

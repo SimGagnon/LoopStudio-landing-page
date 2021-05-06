@@ -1,7 +1,7 @@
 .header {
 
     a {
-        z-index: 5;
+        z-index: 7;
     }
 
     &_logo {
@@ -25,7 +25,6 @@
                 margin-right: 2rem;
             }
         }
-
     }
 
     &_hamburger {
@@ -36,7 +35,6 @@
             height: 0.125rem;
             background-color: $White;
             transition: all 300ms ease-in-out;
-            // transform-origin: 3px 1px;
             margin-bottom: 0.3125rem;
         }
 
@@ -59,10 +57,10 @@
 
     // Black overlay on mobile when burger is clicked //
     &_overlay {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        z-index: 2;
+        z-index: 7;
         width: 100%;
         min-height: 100vh;
         background: $Black;
@@ -71,7 +69,6 @@
         font-size: 1.6em;
         transition: all 300ms ease-in-out;
         animation: slide-in-fade .55s both;
-        visibility: hidden;
 
         ul {
             padding-left: 1.5rem;
@@ -83,7 +80,6 @@
             font-family: $Josefin;
             font-weight: lighter;
             animation: slide-in-fade .55s both;
-            opacity: 0;
 
             @for $i from 1 through 5{
                 &:nth-child(#{$i}){

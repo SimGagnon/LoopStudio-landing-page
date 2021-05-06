@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('.header_hamburger');
 const burgerMenu = document.querySelector('.header_overlay');
+const body = document.querySelector('body');
 
 
 
