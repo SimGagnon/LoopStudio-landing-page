@@ -1,5 +1,4 @@
 .creations {
-
     padding: 0 1.6rem;
     position: relative;
     text-align: center;
@@ -82,6 +81,7 @@
 }
 
 @media screen and (min-width:40em) {
+
     .creations {
         
         &_grid {
@@ -91,6 +91,7 @@
 }
 
 @media screen and (min-width:68.75em) {
+
     .creations {
         padding: 0;
 
