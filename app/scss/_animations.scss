@@ -1,7 +1,30 @@
-// @keyframes slide-in-left {
-//     100% {
-//         right: 0;
-//         width: 100%;
-//     }
-// }
 
+@keyframes slide-in-fade {
+
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.slide_in {
+    animation: slide-in-fade .55s both;
+}
+
+.fade_out {
+    animation: fade-out .55s both;
+}
