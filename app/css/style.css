@@ -441,11 +441,6 @@ p, li, small {
   transition: all 0.2s ease-in-out;
 }
 
-.creations_grid_items:hover {
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
-}
-
 .creations_grid_items:hover h5 {
   color: black;
 }
