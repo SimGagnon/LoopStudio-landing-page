@@ -30,9 +30,9 @@
     .container {
         background: linear-gradient(hsla(0, 0%, 0%, 0.400), hsla(0, 0%, 0%, 0.400)), url('../../images/desktop/image-hero.jpg') center no-repeat;
         background-size: cover;
+        padding-top: 4rem;
 
         .hero {
-
             &_text {
                 max-width: 40.625rem;
                 padding: 2.5rem;

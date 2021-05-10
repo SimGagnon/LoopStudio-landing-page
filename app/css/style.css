@@ -154,7 +154,7 @@ p, li, small {
 }
 
 .header nav ul li:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: 2.0625rem;
 }
 
 .header_hamburger span {
@@ -293,6 +293,7 @@ p, li, small {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/desktop/image-hero.jpg") center no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/desktop/image-hero.jpg") center no-repeat;
     background-size: cover;
+    padding-top: 4rem;
   }
   .container .hero_text {
     max-width: 40.625rem;
@@ -479,7 +480,7 @@ p, li, small {
   }
   .creations_grid h5 {
     font-size: 2.133em;
-    bottom: 2.5rem;
+    bottom: 2rem;
     left: 2.5rem;
   }
 }
@@ -516,7 +517,8 @@ p, li, small {
 
 @media screen and (min-width: 50em) {
   .footer {
-    padding: 2.75rem 3.25rem;
+    padding-top: 2.75rem;
+    padding-bottom: 2.6875rem;
   }
   .footer_container {
     display: -webkit-box;
@@ -546,7 +548,7 @@ p, li, small {
     text-align: right;
   }
   .footer_socials .fab {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

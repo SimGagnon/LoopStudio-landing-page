@@ -34,7 +34,8 @@
 
 @media screen and (min-width:50em) {
     .footer {
-        padding: 2.75rem 3.25rem;
+        padding-top: 2.75rem;
+        padding-bottom: 2.6875rem;
 
         &_container {
             display: flex;
@@ -66,7 +67,7 @@
             text-align: right;
 
             .fab {
-                margin-bottom: 1.5rem;
+                margin-bottom: 1.7rem;
             }
         }
     }
