@@ -296,6 +296,7 @@ p, li, small {
   }
   .container .hero_text {
     max-width: 40.625rem;
+    padding: 2.5rem;
   }
   .container .hero_text h1 {
     font-size: 4.8em;
@@ -512,6 +513,9 @@ p, li, small {
 }
 
 @media screen and (min-width: 50em) {
+  .footer {
+    padding: 2.75rem 3.25rem;
+  }
   .footer_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -522,6 +526,9 @@ p, li, small {
   }
   .footer_container > div:first-of-type {
     text-align: left;
+  }
+  .footer_container > div:first-of-type img {
+    margin-bottom: 1.5rem;
   }
   .footer_nav ul {
     display: -webkit-box;
@@ -537,7 +544,7 @@ p, li, small {
     text-align: right;
   }
   .footer_socials .fab {
-    margin-bottom: 2.3rem;
+    margin-bottom: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
