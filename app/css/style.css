@@ -251,6 +251,10 @@ p, li, small {
     display: -ms-flexbox;
     display: flex;
   }
+  .header_logo img {
+    width: 12rem;
+    height: 2rem;
+  }
   .header_hamburger {
     display: none;
   }
