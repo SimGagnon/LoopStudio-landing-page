@@ -14,8 +14,9 @@
         text-transform: uppercase;
         background: $White;
         font-size: 0.93em;
-        padding: 0.86em 2.66em;
-        letter-spacing: 0.93em;
+        width: 9.8125rem;
+        height: 2.5rem;
+        letter-spacing: 0.3125rem;
         font-family: $Atlata;
         cursor: pointer;
         margin-bottom: 6rem;
@@ -98,6 +99,7 @@
         h3 {
             text-align: left;
             font-size: 3.2em;
+            margin-bottom: 5rem;
         }
 
         button {
