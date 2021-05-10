@@ -30,22 +30,24 @@
 
 }
 
-@media screen and (min-width:43.75em) {
+@media screen and (min-width:50em) {
     .about {
-
         max-width: 1100px;
         display: flex;
         padding-top: 10rem;
         padding-bottom: 11.5rem;
-        position: relative;
 
+        &_container {
+            position: relative;
+            width: 100%;
+        }
 
         &_image {
 
             img {
-                width: auto;
                 max-width: 731px;
                 margin-bottom: 0;
+                float: left;
             }
         }
 
@@ -53,10 +55,10 @@
             text-align: left;
             background: $White;
             padding: 6rem 0 0 6rem;
-            max-width: 33.8125rem;
+            width: 33.8125rem;;
             position: absolute;
-            bottom: 11.5rem;
-            left: 55%;
+            right: 0;
+            bottom: 0;
 
             h3 {
                 margin-bottom: 1.5625rem;
@@ -64,4 +66,13 @@
             }
         }
     }
+}
+
+@media screen and (min-width:68.75em) {
+
+        .about {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
 }
