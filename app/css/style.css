@@ -257,7 +257,7 @@ p, li, small {
 }
 
 .container {
-  background: url("/images/mobile/image-hero.jpg") center no-repeat;
+  background: url("../../images/mobile/image-hero.jpg") center no-repeat;
   background-size: cover;
   height: 40.625rem;
   color: white;
@@ -290,8 +290,8 @@ p, li, small {
 
 @media screen and (min-width: 43.75em) {
   .container {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/desktop/image-hero.jpg") center no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/desktop/image-hero.jpg") center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/desktop/image-hero.jpg") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/desktop/image-hero.jpg") center no-repeat;
     background-size: cover;
   }
   .container .hero_text {
