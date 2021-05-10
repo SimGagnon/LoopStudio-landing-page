@@ -3,7 +3,7 @@
     position: relative;
     text-align: center;
 
-    h3  {
+    h3 {
         font-size: 2.133em;
         margin-bottom: 3rem;
         font-weight: lighter;
@@ -32,7 +32,7 @@
         grid-gap: 1.5rem;
         margin-bottom: 2.125em;
 
-        picture{
+        picture {
 
             &::before {
                 content: "";
@@ -42,7 +42,7 @@
                 z-index: 5;
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(rgba(0, 0, 0, 0.0283),rgba(0, 0, 0, 0.6019));
+                background: linear-gradient(rgba(0, 0, 0, 0.0283), rgba(0, 0, 0, 0.6019));
             }
         }
 
@@ -83,7 +83,7 @@
 @media screen and (min-width:40em) {
 
     .creations {
-        
+
         &_grid {
             grid-template-columns: 1fr 1fr;
         }
@@ -99,13 +99,13 @@
             text-align: left;
             font-size: 3.2em;
         }
-        
+
         button {
             position: absolute;
             top: 0;
             right: 0;
         }
-        
+
         &_grid {
             grid-template-columns: 1fr 1fr 1fr 1fr;
             margin-bottom: 11.5rem;

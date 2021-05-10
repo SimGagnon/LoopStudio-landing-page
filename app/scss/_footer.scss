@@ -28,9 +28,7 @@
             margin-right: 1rem;
             font-size: 1.6em;
             margin-bottom: 1rem;
-            
         }
-
     }
 }
 
@@ -41,13 +39,13 @@
             display: flex;
             justify-content: space-between;
 
-            > div:first-of-type{
+            >div:first-of-type {
                 text-align: left;
             }
         }
-        
+
         &_nav {
-            
+
             ul {
                 display: flex;
 
@@ -59,7 +57,6 @@
         }
 
         &_socials {
-
             margin-top: 0;
             text-align: right;
 
