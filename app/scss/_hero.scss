@@ -10,7 +10,7 @@
         align-items: center;
         height: 100%;
 
-        &_text {
+        &__text {
             text-align: center;
             text-transform: uppercase;
             padding: 1.5rem;
@@ -33,10 +33,9 @@
         padding-top: 4rem;
 
         .hero {
-            &_text {
+            &__text {
                 max-width: 40.625rem;
                 padding: 2.5rem;
-                max-height: 17.375rem;
 
                 h1 {
                     font-size: 4.8em;

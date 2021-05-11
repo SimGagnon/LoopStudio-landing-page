@@ -48,8 +48,8 @@ p,li,small {
     margin: auto;
 }
 
-// Hover effect for header and footer li,fab //
-.header_links li,footer li {
+// Hover effect for header and footer li, //
+.header__links li,footer li{
     position: relative;
 
     &::after {

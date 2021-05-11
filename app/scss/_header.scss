@@ -4,14 +4,7 @@
         z-index: 7;
     }
 
-    &_logo {
-
-        img {
-            width: 9rem;
-            height: 1.5rem;
-        }
-    }
-
+    
     nav {
         display: flex;
         justify-content: space-between;
@@ -27,7 +20,15 @@
         }
     }
 
-    &_hamburger {
+    &__logo {
+
+        img {
+            width: 9rem;
+            height: 1.5rem;
+        }
+    }
+
+    &__hamburger {
 
         span {
             display: block;
@@ -54,7 +55,7 @@
     }
 
     // Black overlay on mobile when burger is clicked //
-    &_overlay {
+    &__overlay {
         position: fixed;
         top: 0;
         right: 0;
@@ -104,7 +105,7 @@
             }
         }
 
-        &_logo {
+        &__logo {
 
             img {
                 width: 12rem;
@@ -112,7 +113,7 @@
             }
         }
 
-        &_hamburger {
+        &__hamburger {
             display: none;
         }
     }

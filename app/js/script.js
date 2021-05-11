@@ -1,7 +1,7 @@
-const hamburger = document.querySelector('.header_hamburger');
-const burgerMenu = document.querySelector('.header_overlay');
+const hamburger = document.querySelector('.header__hamburger');
+const burgerMenu = document.querySelector('.header__overlay');
 const body = document.querySelector('body');
-const mobileList = document.querySelectorAll(".header_overlay li");
+const mobileList = document.querySelectorAll(".header__overlay li");
 
 hamburger.addEventListener('click', function () {
 
