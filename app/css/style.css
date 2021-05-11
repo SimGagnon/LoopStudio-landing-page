@@ -49,11 +49,11 @@ p, li, small {
   margin: auto;
 }
 
-.header_links li, .fab, footer li {
+.header_links li, footer li {
   position: relative;
 }
 
-.header_links li::after, .fab::after, footer li::after {
+.header_links li::after, footer li::after {
   content: "";
   display: block;
   height: 2px;
@@ -69,7 +69,7 @@ p, li, small {
   position: absolute;
 }
 
-.header_links li:hover:after, .fab:hover:after, footer li:hover:after {
+.header_links li:hover:after, footer li:hover:after {
   opacity: 1;
 }
 
@@ -302,6 +302,7 @@ p, li, small {
   .container .hero_text {
     max-width: 40.625rem;
     padding: 2.5rem;
+    max-height: 17.375rem;
   }
   .container .hero_text h1 {
     font-size: 4.8em;
@@ -494,11 +495,17 @@ p, li, small {
   width: 100%;
   text-align: center;
   color: white;
-  padding: 3.5rem 3.25rem;
+  padding: 3.5rem 2.6rem;
 }
 
-.footer img {
+.footer_logo {
   margin-bottom: 2rem;
+  display: block;
+}
+
+.footer_logo img {
+  height: 1.5rem;
+  width: 9rem;
 }
 
 .footer small {
@@ -511,12 +518,11 @@ p, li, small {
 
 .footer_socials {
   margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.footer_socials .fab {
+.footer_socials a:not(:last-child) {
   margin-right: 1rem;
-  font-size: 1.6em;
-  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 50em) {
@@ -535,9 +541,6 @@ p, li, small {
   .footer_container > div:first-of-type {
     text-align: left;
   }
-  .footer_container > div:first-of-type img {
-    margin-bottom: 1.5rem;
-  }
   .footer_nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -550,9 +553,7 @@ p, li, small {
   .footer_socials {
     margin-top: 0;
     text-align: right;
-  }
-  .footer_socials .fab {
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

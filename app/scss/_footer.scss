@@ -3,10 +3,16 @@
     width: 100%;
     text-align: center;
     color: white;
-    padding: 3.5rem 3.25rem;
+    padding: 3.5rem 2.6rem;
 
-    img {
+    &_logo {
         margin-bottom: 2rem;
+        display: block;
+
+        img {
+            height: 1.5rem;
+            width: 9rem;
+        }
     }
 
     small {
@@ -23,11 +29,10 @@
     &_socials {
 
         margin-top: 3rem;
+        margin-bottom: 1rem;
 
-        .fab {
-            margin-right: 1rem;
-            font-size: 1.6em;
-            margin-bottom: 1rem;
+            a:not(:last-child){
+                margin-right: 1rem;
         }
     }
 }
@@ -43,10 +48,6 @@
 
             >div:first-of-type {
                 text-align: left;
-
-                img {
-                    margin-bottom: 1.5rem;
-                }
             }
         }
 
@@ -65,10 +66,9 @@
         &_socials {
             margin-top: 0;
             text-align: right;
+            margin-bottom: 1.5rem;
 
-            .fab {
-                margin-bottom: 1.7rem;
-            }
+
         }
     }
 }

@@ -49,7 +49,7 @@ p,li,small {
 }
 
 // Hover effect for header and footer li,fab //
-.header_links li,.fab, footer li {
+.header_links li,footer li {
     position: relative;
 
     &::after {
