@@ -303,6 +303,7 @@ p, li, small {
   .container .hero__text {
     max-width: 40.625rem;
     padding: 2.5rem;
+    padding-bottom: 1.5rem;
   }
   .container .hero__text h1 {
     font-size: 4.8em;
