@@ -290,6 +290,7 @@ p, li, small {
   font-size: 2.66em;
   text-align: left;
   font-weight: 300;
+  line-height: 4.375rem;
 }
 
 @media screen and (min-width: 43.75em) {
